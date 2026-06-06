@@ -8,7 +8,7 @@
 [![Streamlit](https://img.shields.io/badge/Streamlit-1.32+-ff4b4b?style=for-the-badge&logo=streamlit&logoColor=white)](https://streamlit.io)
 [![Scikit-Learn](https://img.shields.io/badge/Scikit--Learn-1.3+-f7931e?style=for-the-badge&logo=scikit-learn&logoColor=white)](https://scikit-learn.org)
 [![License](https://img.shields.io/badge/License-MIT-22c55e?style=for-the-badge)](LICENSE)
-[![DecodeLabs](https://img.shields.io/badge/DecodeLabs-AI%20Training%20%C2%B7%202026-6366f1?style=for-the-badge)](https://decodelabs.in)
+
 
 <br/>
 
@@ -133,7 +133,7 @@ Python 3.10+   pip   git
 ### 1 · Clone the repository
 
 ```bash
-git clone https://github.com/Mowshik1210/iris-flower-classifier.git
+git clone https://github.com/Mowshik1210/Decodelabs_Iris-AI.git
 cd iris-flower-classifier
 ```
 
@@ -184,7 +184,7 @@ pip install -r requirements.txt
 ## 🎯 How to Use
 
 ```
-1.  Open the app in your browser  (http://localhost:8501)
+1.  Open the app in your browser  (https://irisflowerai.streamlit.app/)
 2.  Adjust the 4 measurement sliders  (sepal/petal length & width)
 3.  Click  🔬 Predict Flower Species
 4.  View the predicted species, confidence %, and probability breakdown
