@@ -34,7 +34,7 @@
 
 | Hero Banner | Prediction Result | Species Cards |
 |:-----------:|:-----------------:|:-------------:|
-| *Screenshot coming soon* | *Screenshot coming soon* | *Screenshot coming soon* |
+| *(https://github.com/Mowshik1210/Decodelabs_Iris-AI/blob/main/Assests/Screenshot%20(100).png?raw=true)* | *(https://github.com/Mowshik1210/Decodelabs_Iris-AI/blob/main/Assests/Screenshot%20(102).png?raw=true)* | *(https://github.com/Mowshik1210/Decodelabs_Iris-AI/blob/main/Assests/Screenshot%20(103).png?raw=true)* |
 
 > 💡 **Tip:** Run the app locally and take screenshots to fill these in!
 
