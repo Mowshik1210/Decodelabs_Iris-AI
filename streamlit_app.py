@@ -724,38 +724,35 @@ def display_result(species_name: str, confidence: float, all_probs: dict):
         unsafe_allow_html=True,
     )
 
-   # ── Flower Image Card ──────────────────────────────────────
-img_path = meta.get("image", "")
-st.markdown('<div class="img-card">', unsafe_allow_html=True)
+      # ── Flower Image Card ──────────────────────────────────────
+    img_path = meta.get("image", "")
+    st.markdown('<div class="img-card">', unsafe_allow_html=True)
 
-if img_path:
-    # ✅ Detect URL vs local path
-    is_url = img_path.startswith("http://") or img_path.startswith("https://")
+    if img_path:
+        # ✅ Detect URL vs local path
+        is_url = img_path.startswith("http://") or img_path.startswith("https://")
 
-    if is_url:
-        try:
+        if is_url:
+          try:
             st.image(img_path, use_container_width=True)   # ← handles GitHub URLs directly
-        except Exception:
+          except Exception:
             st.markdown(f'<div class="img-placeholder">{emoji}</div>', unsafe_allow_html=True)
 
-    elif os.path.exists(img_path):
-        try:
+        elif os.path.exists(img_path):
+          try:
             from PIL import Image
             st.image(Image.open(img_path), use_container_width=True)
-        except Exception:
+          except Exception:
             st.markdown(f'<div class="img-placeholder">{emoji}</div>', unsafe_allow_html=True)
 
-    else:
-        st.markdown(f'<div class="img-placeholder">{emoji}</div>', unsafe_allow_html=True)
+        else:
+          st.markdown(f'<div class="img-placeholder">{emoji}</div>', unsafe_allow_html=True)
 
-else:
-    st.markdown(f'<div class="img-placeholder">{emoji}</div>', unsafe_allow_html=True)
-
-st.markdown(
-    f'<div class="img-caption">🔬 {meta.get("latin","—")} · {meta.get("origin","—")}</div>',
-    unsafe_allow_html=True,
-)
-st.markdown("</div>", unsafe_allow_html=True)
+          st.markdown(
+          f'<div class="img-caption">🔬 {meta.get("latin","—")} · {meta.get("origin","—")}</div>',
+          unsafe_allow_html=True,
+       )
+        st.markdown("</div>", unsafe_allow_html=True)
 
 
 # ================================================================
