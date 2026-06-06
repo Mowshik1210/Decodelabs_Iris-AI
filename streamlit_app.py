@@ -24,9 +24,9 @@ st.set_page_config(
 # ================================================================
 # §1  IMAGE PATHS  ← Paste your actual image paths here
 # ================================================================
-SETOSA_IMAGE     = r"C:\Users\ELCOT\OneDrive\Desktop\Decodelabs_iris classification model\Assests\Iris-setosa.jpg"       # ← Update path
-VERSICOLOR_IMAGE = r"C:\Users\ELCOT\OneDrive\Desktop\Decodelabs_iris classification model\Assests\iris Versicolor.jpg"   # ← Update path
-VIRGINICA_IMAGE  = r"C:\Users\ELCOT\OneDrive\Desktop\Decodelabs_iris classification model\Assests\iris Virginica.jpg"    # ← Update path
+SETOSA_IMAGE     = "https://github.com/Mowshik1210/Decodelabs_Iris-AI/blob/main/Assests/Iris-setosa.jpg?raw=true"   # ← Update path
+VERSICOLOR_IMAGE = "https://github.com/Mowshik1210/Decodelabs_Iris-AI/blob/main/Assests/iris%20Versicolor.jpg?raw=true"  # ← Update path
+VIRGINICA_IMAGE  = "https://github.com/Mowshik1210/Decodelabs_Iris-AI/blob/main/Assests/iris%20Virginica.jpg?raw=true"   # ← Update path
 
 SPECIES_META = {
     "Iris Setosa": {
