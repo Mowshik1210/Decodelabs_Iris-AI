@@ -13,7 +13,7 @@
 <br/>
 
 > **🏫 Project · IRIS AI**
->
+> ** 🌐 LIVE DEMO: ![🌸 IRISFLOWERAI.STREAMLIT.APP](https://irisflowerai.streamlit.app/)  **
 > A production-quality machine learning web application that classifies Iris flower species
 > from physical measurements using the K-Nearest Neighbors algorithm —
 > wrapped in a premium botanical-themed Streamlit UI.
