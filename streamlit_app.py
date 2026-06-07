@@ -15,7 +15,7 @@ import os
 
 # ── Page config MUST be first Streamlit call ─────────────────
 st.set_page_config(
-    page_title="Iris AI",
+    page_title="Iris Flower AI",
     page_icon="🌸",
     layout="wide",
     initial_sidebar_state="collapsed",
@@ -764,7 +764,7 @@ def render_hero():
         <div class="hero-wrap">
           <div class="hero-leaf-bg"></div>
           <span class="hero-emoji-row">🌸 🌿 🌺 🍃 💐</span>
-          <div class="hero-title">IRIS AI</div>
+          <div class="hero-title">IRIS FLOWER AI</div>
           <div class="hero-subtitle">
             Iris flower classification using AI by MOWSHIK G /
             CSE(AI&ML) STUDENT at KPRIET
@@ -1101,7 +1101,7 @@ def render_footer(accuracy: float):
     st.markdown(
         f"""
         <div class="footer-wrap">
-          <div class="footer-brand">🌸 Iris AI</div>
+          <div class="footer-brand">🌸 Iris Flower AI</div>
           <div class="footer-sub">
             An AI for classifying iris flowers based on their measurements 
           </div>
@@ -1113,7 +1113,7 @@ def render_footer(accuracy: float):
             <span class="footer-chip">📦 Scikit-Learn · Streamlit · Pandas</span>
           </div>
           <div class="footer-copy">
-            Thank you for using Iris AI! · Nature-Inspired AI ·
+            Thank you for using Iris Flower AI! · Nature-Inspired AI ·
             © 2026 Mowshik G / 💚🤍💚🤍
           </div>
         </div>
